@@ -1,0 +1,374 @@
+\hypertarget{classGraphics}{}\doxysection{Graphics Class Reference}
+\label{classGraphics}\index{Graphics@{Graphics}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGraphics_af2e8fe67fd31ec263c843a6e28b29d3c}{Graphics}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classGraphics}{Graphics}}\+:\+: \mbox{\hyperlink{classGraphics}{Graphics}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGraphics_a7841c9a961ac9bca33bd30ddf8066cdb}{$\sim$\+Graphics}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classGraphics}{Graphics}}\+:\+: \mbox{\hyperlink{classGraphics}{Graphics}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEntity}{Entity}} \mbox{\hyperlink{classGraphics_a635a5c65cd57085c068e7adaaee9df5d}{move}} (std\+::string entity\+Name, int x, int y)
+\begin{DoxyCompactList}\small\item\em Move an entity\textquotesingle{}s location. e.\+g. move(\char`\"{}protagonist\char`\"{}, 0, -\/10) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGraphics_a8dab5d1314b53317d0344c3f9aa01623}{render}} ()
+\begin{DoxyCompactList}\small\item\em Draw the map and all entities. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGraphics_ad757c35d5f9c2a9a9c54716ab6a0c28b}{add\+Entity}} (\mbox{\hyperlink{classEntity}{Entity}} entity)
+\begin{DoxyCompactList}\small\item\em Add function. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$ \mbox{\hyperlink{classGraphics_a466579a4252138601e3c4c81ad826dd0}{get\+Entities}} ()
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGraphics_af36a942b98c0d3583ae0aa02fb0514e8}{remove\+Entity}} ()
+\begin{DoxyCompactList}\small\item\em Remove function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGraphics_acd3356758cdb5ab39c26ab4949d20bc9}{remove\+Entity\+By\+Entity}} (\mbox{\hyperlink{classEntity}{Entity}} entity)
+\begin{DoxyCompactList}\small\item\em Remove function. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGraphics_aeb2e1a38cd635c5789e00ee95fb7878b}{find\+Entity\+Index\+By\+Entity}} (\mbox{\hyperlink{classEntity}{Entity}} entity)
+\begin{DoxyCompactList}\small\item\em Find entity index by location. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGraphics_ad369a993ad7abe01185731e2ea4c88bf}{clear\+Entities}} ()
+\begin{DoxyCompactList}\small\item\em Clear entities. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGraphics_a1b0c63282fe718e85a7fa0cd2a760381}{find\+Entity\+Index}} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Finds entity object by name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGraphics_a76eec8e215b7918422be85e0ee3d796f}{access\+Inventory}} (std\+::vector$<$ \mbox{\hyperlink{classItem}{Item}} $>$ inventory)
+\begin{DoxyCompactList}\small\item\em Access inventory function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGraphics_a9b7592e73c3c592f66d71a539bf05efb}{render\+Inventory}} (std\+::vector$<$ \mbox{\hyperlink{classItem}{Item}} $>$ inventory, int slot\+Pointer)
+\begin{DoxyCompactList}\small\item\em Render inventory. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Texture $\ast$ \mbox{\hyperlink{classGraphics_a274d1f5a0387bf8753c33f7b45edec4b}{create\+Texture}} (char $\ast$file\+Path)
+\begin{DoxyCompactList}\small\item\em Create texture. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGraphics_a5a2cf0ee54c2789bcac62b517b771d16}{collides}} (\mbox{\hyperlink{classEntity}{Entity}} entity)
+\begin{DoxyCompactList}\small\item\em Collision check function. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGraphics_acfc556c475a17b386b2b9d9e1c03e8c6}\label{classGraphics_acfc556c475a17b386b2b9d9e1c03e8c6}} 
+bool {\bfseries collides} (std\+::string entity\+Name)
+\item 
+\mbox{\Hypertarget{classGraphics_a9671d2d6cb120ee7dbb3b00bda686009}\label{classGraphics_a9671d2d6cb120ee7dbb3b00bda686009}} 
+bool {\bfseries is\+Valid} (int x, int y)
+\item 
+\mbox{\hyperlink{classEntity}{Entity}} \mbox{\hyperlink{classGraphics_a0f16385c88dc92aefb5da4e809012eb8}{collides\+With}} (\mbox{\hyperlink{classEntity}{Entity}} entity)
+\begin{DoxyCompactList}\small\item\em What the input entity collides against. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGraphics_a6f303410c53422d9c6e65f86bc927a1f}\label{classGraphics_a6f303410c53422d9c6e65f86bc927a1f}} 
+bool {\bfseries is\+Intersecting} (std\+::string first\+Entity\+Name, std\+::string second\+Entity\+Name)
+\item 
+\mbox{\Hypertarget{classGraphics_abee7ea746707600f9f39949beb7316f4}\label{classGraphics_abee7ea746707600f9f39949beb7316f4}} 
+void {\bfseries render\+HPBar} (int player\+Health)
+\item 
+std\+::tuple$<$ int, int $>$ \mbox{\hyperlink{classGraphics_a629d3a7a080ba48e6297a7a6cd43f92e}{get\+Entity\+Location}} (std\+::string entity\+Name)
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGraphics_ac06bc8f36455516de171fb6d6cae4543}\label{classGraphics_ac06bc8f36455516de171fb6d6cae4543}} 
+static \mbox{\hyperlink{classGraphics}{Graphics}} $\ast$ {\bfseries instance} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGraphics_aa94efc6f1bdbb40479093fa9f81b4d7e}\label{classGraphics_aa94efc6f1bdbb40479093fa9f81b4d7e}} 
+SDL\+\_\+\+Texture $\ast$ {\bfseries player\+Texture}
+\item 
+\mbox{\Hypertarget{classGraphics_a659eb73765f7e9731e84a85104858985}\label{classGraphics_a659eb73765f7e9731e84a85104858985}} 
+SDL\+\_\+\+Rect {\bfseries background}
+\item 
+\mbox{\Hypertarget{classGraphics_af397f61e26b41302b0b66ee4ab408952}\label{classGraphics_af397f61e26b41302b0b66ee4ab408952}} 
+SDL\+\_\+\+Window $\ast$ {\bfseries window}
+\item 
+\mbox{\Hypertarget{classGraphics_afee9119ae93eafc5707a9e868b539a2e}\label{classGraphics_afee9119ae93eafc5707a9e868b539a2e}} 
+SDL\+\_\+\+Renderer $\ast$ {\bfseries renderer}
+\item 
+\mbox{\Hypertarget{classGraphics_a663648e60f6006ae64b93f7bd50e0ea0}\label{classGraphics_a663648e60f6006ae64b93f7bd50e0ea0}} 
+std\+::vector$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$ {\bfseries entities}
+\item 
+\mbox{\Hypertarget{classGraphics_a8936b261135a9471177a2385ac832397}\label{classGraphics_a8936b261135a9471177a2385ac832397}} 
+std\+::vector$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$ {\bfseries walls}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classGraphics}{Graphics}} $\ast$ \mbox{\hyperlink{classGraphics_afe1892a16cb54b1a0c4185eea7249954}{s\+Instance}} = NULL
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classGraphics}{Graphics}} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGraphics_af2e8fe67fd31ec263c843a6e28b29d3c}\label{classGraphics_af2e8fe67fd31ec263c843a6e28b29d3c}} 
+\index{Graphics@{Graphics}!Graphics@{Graphics}}
+\index{Graphics@{Graphics}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{Graphics()}{Graphics()}}
+{\footnotesize\ttfamily Graphics\+::\+Graphics (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classGraphics}{Graphics}}\+:\+: \mbox{\hyperlink{classGraphics}{Graphics}} object. 
+
+This is the contructor for a \mbox{\hyperlink{classGraphics}{Graphics}} object \mbox{\Hypertarget{classGraphics_a7841c9a961ac9bca33bd30ddf8066cdb}\label{classGraphics_a7841c9a961ac9bca33bd30ddf8066cdb}} 
+\index{Graphics@{Graphics}!````~Graphics@{$\sim$Graphics}}
+\index{````~Graphics@{$\sim$Graphics}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{$\sim$Graphics()}{~Graphics()}}
+{\footnotesize\ttfamily Graphics\+::$\sim$\+Graphics (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{classGraphics}{Graphics}}\+:\+: \mbox{\hyperlink{classGraphics}{Graphics}} object. 
+
+This is the destructor for a \mbox{\hyperlink{classGraphics}{Graphics}} object 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGraphics_a76eec8e215b7918422be85e0ee3d796f}\label{classGraphics_a76eec8e215b7918422be85e0ee3d796f}} 
+\index{Graphics@{Graphics}!accessInventory@{accessInventory}}
+\index{accessInventory@{accessInventory}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{accessInventory()}{accessInventory()}}
+{\footnotesize\ttfamily void Graphics\+::access\+Inventory (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classItem}{Item}} $>$}]{inventory }\end{DoxyParamCaption})}
+
+
+
+Access inventory function. 
+
+Inside access inventory method
+
+
+\begin{DoxyParams}{Parameters}
+{\em inventory} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraphics_ad757c35d5f9c2a9a9c54716ab6a0c28b}\label{classGraphics_ad757c35d5f9c2a9a9c54716ab6a0c28b}} 
+\index{Graphics@{Graphics}!addEntity@{addEntity}}
+\index{addEntity@{addEntity}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{addEntity()}{addEntity()}}
+{\footnotesize\ttfamily void Graphics\+::add\+Entity (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEntity}{Entity}}}]{entity }\end{DoxyParamCaption})}
+
+
+
+Add function. 
+
+Push back an entity in to entities
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraphics_ad369a993ad7abe01185731e2ea4c88bf}\label{classGraphics_ad369a993ad7abe01185731e2ea4c88bf}} 
+\index{Graphics@{Graphics}!clearEntities@{clearEntities}}
+\index{clearEntities@{clearEntities}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{clearEntities()}{clearEntities()}}
+{\footnotesize\ttfamily void Graphics\+::clear\+Entities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clear entities. 
+
+Clear all entities in entities \mbox{\Hypertarget{classGraphics_a5a2cf0ee54c2789bcac62b517b771d16}\label{classGraphics_a5a2cf0ee54c2789bcac62b517b771d16}} 
+\index{Graphics@{Graphics}!collides@{collides}}
+\index{collides@{collides}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{collides()}{collides()}}
+{\footnotesize\ttfamily bool Graphics\+::collides (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEntity}{Entity}}}]{entity }\end{DoxyParamCaption})}
+
+
+
+Collision check function. 
+
+Loop through entities to see if the input entity collides with any other one in the list
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphics_a0f16385c88dc92aefb5da4e809012eb8}\label{classGraphics_a0f16385c88dc92aefb5da4e809012eb8}} 
+\index{Graphics@{Graphics}!collidesWith@{collidesWith}}
+\index{collidesWith@{collidesWith}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{collidesWith()}{collidesWith()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classEntity}{Entity}} Graphics\+::collides\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEntity}{Entity}}}]{entity }\end{DoxyParamCaption})}
+
+
+
+What the input entity collides against. 
+
+If there is collision it returns entity that parameter entity collides against. If not, it returns the parameter entity
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classEntity}{Entity}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphics_a274d1f5a0387bf8753c33f7b45edec4b}\label{classGraphics_a274d1f5a0387bf8753c33f7b45edec4b}} 
+\index{Graphics@{Graphics}!createTexture@{createTexture}}
+\index{createTexture@{createTexture}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{createTexture()}{createTexture()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Texture $\ast$ Graphics\+::create\+Texture (\begin{DoxyParamCaption}\item[{char $\ast$}]{file\+Path }\end{DoxyParamCaption})}
+
+
+
+Create texture. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+SDL\+\_\+\+Texture$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphics_a1b0c63282fe718e85a7fa0cd2a760381}\label{classGraphics_a1b0c63282fe718e85a7fa0cd2a760381}} 
+\index{Graphics@{Graphics}!findEntityIndex@{findEntityIndex}}
+\index{findEntityIndex@{findEntityIndex}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{findEntityIndex()}{findEntityIndex()}}
+{\footnotesize\ttfamily int Graphics\+::find\+Entity\+Index (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Finds entity object by name. 
+
+Go through the entities using for loop to find the corresponding entity
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\ast$ finds 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphics_aeb2e1a38cd635c5789e00ee95fb7878b}\label{classGraphics_aeb2e1a38cd635c5789e00ee95fb7878b}} 
+\index{Graphics@{Graphics}!findEntityIndexByEntity@{findEntityIndexByEntity}}
+\index{findEntityIndexByEntity@{findEntityIndexByEntity}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{findEntityIndexByEntity()}{findEntityIndexByEntity()}}
+{\footnotesize\ttfamily int Graphics\+::find\+Entity\+Index\+By\+Entity (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEntity}{Entity}}}]{entity }\end{DoxyParamCaption})}
+
+
+
+Find entity index by location. 
+
+Find the index of the entity by looping through entities and get the index of the entity
+
+
+\begin{DoxyParams}{Parameters}
+{\em rect} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphics_a466579a4252138601e3c4c81ad826dd0}\label{classGraphics_a466579a4252138601e3c4c81ad826dd0}} 
+\index{Graphics@{Graphics}!getEntities@{getEntities}}
+\index{getEntities@{getEntities}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{getEntities()}{getEntities()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$ Graphics\+::get\+Entities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get entities
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Entity$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphics_a629d3a7a080ba48e6297a7a6cd43f92e}\label{classGraphics_a629d3a7a080ba48e6297a7a6cd43f92e}} 
+\index{Graphics@{Graphics}!getEntityLocation@{getEntityLocation}}
+\index{getEntityLocation@{getEntityLocation}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{getEntityLocation()}{getEntityLocation()}}
+{\footnotesize\ttfamily std\+::tuple$<$ int, int $>$ Graphics\+::get\+Entity\+Location (\begin{DoxyParamCaption}\item[{std\+::string}]{entity\+Name }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get the location of the entity. If not, return (-\/1,-\/1)
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::tuple$<$int, int$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphics_a635a5c65cd57085c068e7adaaee9df5d}\label{classGraphics_a635a5c65cd57085c068e7adaaee9df5d}} 
+\index{Graphics@{Graphics}!move@{move}}
+\index{move@{move}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classEntity}{Entity}} Graphics\+::move (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Move an entity\textquotesingle{}s location. e.\+g. move(\char`\"{}protagonist\char`\"{}, 0, -\/10) 
+
+Moves the protagonist entity up by 10 pixels \mbox{\Hypertarget{classGraphics_af36a942b98c0d3583ae0aa02fb0514e8}\label{classGraphics_af36a942b98c0d3583ae0aa02fb0514e8}} 
+\index{Graphics@{Graphics}!removeEntity@{removeEntity}}
+\index{removeEntity@{removeEntity}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{removeEntity()}{removeEntity()}}
+{\footnotesize\ttfamily void Graphics\+::remove\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Remove function. 
+
+Remove the lastest entity that was pushed back \mbox{\Hypertarget{classGraphics_acd3356758cdb5ab39c26ab4949d20bc9}\label{classGraphics_acd3356758cdb5ab39c26ab4949d20bc9}} 
+\index{Graphics@{Graphics}!removeEntityByEntity@{removeEntityByEntity}}
+\index{removeEntityByEntity@{removeEntityByEntity}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{removeEntityByEntity()}{removeEntityByEntity()}}
+{\footnotesize\ttfamily void Graphics\+::remove\+Entity\+By\+Entity (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEntity}{Entity}}}]{ent }\end{DoxyParamCaption})}
+
+
+
+Remove function. 
+
+Find the entity index using the find\+Entity\+Index\+By\+Location function and remove it from entities
+
+
+\begin{DoxyParams}{Parameters}
+{\em ent} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraphics_a8dab5d1314b53317d0344c3f9aa01623}\label{classGraphics_a8dab5d1314b53317d0344c3f9aa01623}} 
+\index{Graphics@{Graphics}!render@{render}}
+\index{render@{render}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Graphics\+::render (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draw the map and all entities. 
+
+Insert black background, loop through vector of entities and draw them \mbox{\Hypertarget{classGraphics_a9b7592e73c3c592f66d71a539bf05efb}\label{classGraphics_a9b7592e73c3c592f66d71a539bf05efb}} 
+\index{Graphics@{Graphics}!renderInventory@{renderInventory}}
+\index{renderInventory@{renderInventory}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{renderInventory()}{renderInventory()}}
+{\footnotesize\ttfamily void Graphics\+::render\+Inventory (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classItem}{Item}} $>$}]{inventory,  }\item[{int}]{slot\+Pointer }\end{DoxyParamCaption})}
+
+
+
+Render inventory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inventory} & \\
+\hline
+{\em slot\+Pointer} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classGraphics_afe1892a16cb54b1a0c4185eea7249954}\label{classGraphics_afe1892a16cb54b1a0c4185eea7249954}} 
+\index{Graphics@{Graphics}!sInstance@{sInstance}}
+\index{sInstance@{sInstance}!Graphics@{Graphics}}
+\doxysubsubsection{\texorpdfstring{sInstance}{sInstance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGraphics}{Graphics}} $\ast$ Graphics\+::s\+Instance = NULL\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\mbox{\hyperlink{classGraphics}{Graphics}} class. 
+
+\begin{DoxyAuthor}{Authors}
+Ibai Seco, Lucas Fraulin, Suseela Chinniah 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Graphics.\+h\item 
+Graphics.\+cpp\end{DoxyCompactItemize}

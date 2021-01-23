@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 959b6b5d022e2fd90735b2312ec1af0d92c1fdbc schinniah <schinni2@uwo.ca> 1604949231 -0800	branch: Created from HEAD
+959b6b5d022e2fd90735b2312ec1af0d92c1fdbc 97f9c7b5be14e86040d1600d0b225bc0d639c8ed schinniah <schinni2@uwo.ca> 1604950564 -0800	commit: simple window implementation
+97f9c7b5be14e86040d1600d0b225bc0d639c8ed 1ec276a3109e026409e40c6f47fe7fd5399ddb00 schinniah <schinni2@uwo.ca> 1605065659 -0800	commit: simple protagonist graphic implementation
+1ec276a3109e026409e40c6f47fe7fd5399ddb00 4ac4131394a168325137e1b8028edb3a342a2f99 schinniah <schinni2@uwo.ca> 1605138882 -0800	commit: refactored initial graphical implementation into classes
+4ac4131394a168325137e1b8028edb3a342a2f99 9747850a46530687cd7d245723a2c386d5380afd schinniah <schinni2@uwo.ca> 1605139633 -0800	pull origin main: Merge made by the 'recursive' strategy.
+9747850a46530687cd7d245723a2c386d5380afd ae474c972f0b0c242cdea839e9a0999c3375dea2 schinniah <schinni2@uwo.ca> 1605140527 -0800	commit: added comments
+ae474c972f0b0c242cdea839e9a0999c3375dea2 cd587f5cbc4edf608f7c0f9be84dc4a6a6b41d82 schinniah <schinni2@uwo.ca> 1605142699 -0800	commit: added instructions for running main.cpp

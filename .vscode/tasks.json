@@ -1,0 +1,43 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "/home/ubuntu/uwo/3307/Covid-Quest/main.cpp",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Graphics.cpp",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Entity.cpp",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Graphics.h",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Entity.h",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Protagonist.cpp",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Protagonist.h",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Item.cpp",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Item.h",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Level.cpp",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Level.h",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Bot.cpp",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Bot.h",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Timer.cpp",
+                "/home/ubuntu/uwo/3307/Covid-Quest/Timer.h",
+                "-o",
+                "/home/ubuntu/uwo/3307/Covid-Quest/debug",
+                "-lSDL2",
+                "-lSDL2_image"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Generated task by Debugger"
+        }
+    ],
+    "version": "2.0.0"
+}

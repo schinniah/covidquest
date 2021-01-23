@@ -1,0 +1,62 @@
+0000000000000000000000000000000000000000 0c98c23a463aab874c3900ad04f38734d8e0e4ee schinniah <schinni2@uwo.ca> 1604945512 -0800	clone: from git@github.com:IbaiSeco/Covid-Quest.git
+0c98c23a463aab874c3900ad04f38734d8e0e4ee 6b889a29a03f2c02ed6ec02a156b7a155c469016 schinniah <schinni2@uwo.ca> 1604945521 -0800	checkout: moving from main to keyboard
+6b889a29a03f2c02ed6ec02a156b7a155c469016 d06a65d234ce4dbdad5c6a0eafd864d3b91a7755 schinniah <schinni2@uwo.ca> 1604945967 -0800	commit: keyboard header file now declares all methods in the UML diagram
+d06a65d234ce4dbdad5c6a0eafd864d3b91a7755 0c98c23a463aab874c3900ad04f38734d8e0e4ee schinniah <schinni2@uwo.ca> 1604946241 -0800	checkout: moving from keyboard to main
+0c98c23a463aab874c3900ad04f38734d8e0e4ee 959b6b5d022e2fd90735b2312ec1af0d92c1fdbc schinniah <schinni2@uwo.ca> 1604946248 -0800	pull: Fast-forward
+959b6b5d022e2fd90735b2312ec1af0d92c1fdbc 959b6b5d022e2fd90735b2312ec1af0d92c1fdbc schinniah <schinni2@uwo.ca> 1604949231 -0800	checkout: moving from main to graphics_implementation
+959b6b5d022e2fd90735b2312ec1af0d92c1fdbc 97f9c7b5be14e86040d1600d0b225bc0d639c8ed schinniah <schinni2@uwo.ca> 1604950564 -0800	commit: simple window implementation
+97f9c7b5be14e86040d1600d0b225bc0d639c8ed 1ec276a3109e026409e40c6f47fe7fd5399ddb00 schinniah <schinni2@uwo.ca> 1605065659 -0800	commit: simple protagonist graphic implementation
+1ec276a3109e026409e40c6f47fe7fd5399ddb00 4ac4131394a168325137e1b8028edb3a342a2f99 schinniah <schinni2@uwo.ca> 1605138882 -0800	commit: refactored initial graphical implementation into classes
+4ac4131394a168325137e1b8028edb3a342a2f99 959b6b5d022e2fd90735b2312ec1af0d92c1fdbc schinniah <schinni2@uwo.ca> 1605139172 -0800	checkout: moving from graphics_implementation to main
+959b6b5d022e2fd90735b2312ec1af0d92c1fdbc 58eefaadf741b74950ce99c10bc83389e1279617 schinniah <schinni2@uwo.ca> 1605139280 -0800	commit: implemented Keyboard according to UML specifications
+58eefaadf741b74950ce99c10bc83389e1279617 1bcc623c10fc4ebdca580caec777eb701ab8126c schinniah <schinni2@uwo.ca> 1605139306 -0800	pull: Merge made by the 'recursive' strategy.
+1bcc623c10fc4ebdca580caec777eb701ab8126c 6629a717ce9cb83916efef6f8284181f492c4e25 schinniah <schinni2@uwo.ca> 1605139611 -0800	commit: updated Keyboard files
+6629a717ce9cb83916efef6f8284181f492c4e25 4ac4131394a168325137e1b8028edb3a342a2f99 schinniah <schinni2@uwo.ca> 1605139627 -0800	checkout: moving from main to graphics_implementation
+4ac4131394a168325137e1b8028edb3a342a2f99 9747850a46530687cd7d245723a2c386d5380afd schinniah <schinni2@uwo.ca> 1605139633 -0800	pull origin main: Merge made by the 'recursive' strategy.
+9747850a46530687cd7d245723a2c386d5380afd ae474c972f0b0c242cdea839e9a0999c3375dea2 schinniah <schinni2@uwo.ca> 1605140527 -0800	commit: added comments
+ae474c972f0b0c242cdea839e9a0999c3375dea2 cd587f5cbc4edf608f7c0f9be84dc4a6a6b41d82 schinniah <schinni2@uwo.ca> 1605142699 -0800	commit: added instructions for running main.cpp
+cd587f5cbc4edf608f7c0f9be84dc4a6a6b41d82 6629a717ce9cb83916efef6f8284181f492c4e25 schinniah <schinni2@uwo.ca> 1606214754 -0800	checkout: moving from graphics_implementation to main
+6629a717ce9cb83916efef6f8284181f492c4e25 6629a717ce9cb83916efef6f8284181f492c4e25 schinniah <schinni2@uwo.ca> 1606214779 -0800	checkout: moving from main to ui_work
+6629a717ce9cb83916efef6f8284181f492c4e25 e24d7254d85a3a4cc9095d9a87ecc3a9b1c984e3 schinniah <schinni2@uwo.ca> 1606214814 -0800	pull origin main: Fast-forward
+e24d7254d85a3a4cc9095d9a87ecc3a9b1c984e3 351ff9b116e491ebc01dfa66f03ea386d012c6d1 schinniah <schinni2@uwo.ca> 1606581356 -0800	commit: can load png files for player sprite
+351ff9b116e491ebc01dfa66f03ea386d012c6d1 cefb6c8ca59b4f997d869fa8e6cf51af3a5b27b4 schinniah <schinni2@uwo.ca> 1606682070 -0800	commit: created inventory UI
+cefb6c8ca59b4f997d869fa8e6cf51af3a5b27b4 eec0357f266e2be1fdfe7aea0b2726c00a2ef9a2 schinniah <schinni2@uwo.ca> 1606683230 -0800	commit (merge): resolved merge conflicts
+eec0357f266e2be1fdfe7aea0b2726c00a2ef9a2 142081440bd6e69ae2e1a8e76f2940f897c04e45 schinniah <schinni2@uwo.ca> 1606683504 -0800	commit: clean up merge with conflicts
+142081440bd6e69ae2e1a8e76f2940f897c04e45 d0f8dcd6280fa20016c72eafc6f2da01840e551c schinniah <schinni2@uwo.ca> 1606684126 -0800	commit: updated constructor calls, changed list to vector, fixed variables removed by accident
+d0f8dcd6280fa20016c72eafc6f2da01840e551c 6629a717ce9cb83916efef6f8284181f492c4e25 schinniah <schinni2@uwo.ca> 1606758945 -0800	checkout: moving from ui_work to main
+6629a717ce9cb83916efef6f8284181f492c4e25 09659223a7a4670215ff48d6fb2995770158a168 schinniah <schinni2@uwo.ca> 1606758952 -0800	pull origin main: Fast-forward
+09659223a7a4670215ff48d6fb2995770158a168 c16d024b7bcff1af57a3e64fc150e79e56c6f30b schinniah <schinni2@uwo.ca> 1606761263 -0800	commit: i to toggle and untoggle inventory
+c16d024b7bcff1af57a3e64fc150e79e56c6f30b c16d024b7bcff1af57a3e64fc150e79e56c6f30b schinniah <schinni2@uwo.ca> 1606761409 -0800	checkout: moving from main to collision_detection
+c16d024b7bcff1af57a3e64fc150e79e56c6f30b 95d9a32b773761603fd61104b60e2f99c177e636 schinniah <schinni2@uwo.ca> 1606773011 -0800	commit: added shop background
+95d9a32b773761603fd61104b60e2f99c177e636 e2bf3ab432f54055ef0ec2a5d8d8c72baa0cbfc6 schinniah <schinni2@uwo.ca> 1606778703 -0800	commit: added inventory background and highlight
+e2bf3ab432f54055ef0ec2a5d8d8c72baa0cbfc6 c16d024b7bcff1af57a3e64fc150e79e56c6f30b schinniah <schinni2@uwo.ca> 1606778840 -0800	checkout: moving from collision_detection to main
+c16d024b7bcff1af57a3e64fc150e79e56c6f30b f25292b04a6f59840943c4fcd84c0c12d9808bb5 schinniah <schinni2@uwo.ca> 1606779153 -0800	commit: changed PollEvent to WaitEvent to reduce CPU usage
+f25292b04a6f59840943c4fcd84c0c12d9808bb5 e2bf3ab432f54055ef0ec2a5d8d8c72baa0cbfc6 schinniah <schinni2@uwo.ca> 1606861690 -0800	checkout: moving from main to collision_detection
+e2bf3ab432f54055ef0ec2a5d8d8c72baa0cbfc6 363cb8bed6d58e0ebb40563b4f3a13e8c8c83aeb schinniah <schinni2@uwo.ca> 1606862389 -0800	pull origin main: Merge made by the 'recursive' strategy.
+363cb8bed6d58e0ebb40563b4f3a13e8c8c83aeb 363cb8bed6d58e0ebb40563b4f3a13e8c8c83aeb schinniah <schinni2@uwo.ca> 1606876153 -0800	reset: moving to HEAD
+363cb8bed6d58e0ebb40563b4f3a13e8c8c83aeb 4d8099631170dbcc9a072acbe2a55bc6a2baa830 schinniah <schinni2@uwo.ca> 1606876204 -0800	commit: work done before zoom call
+4d8099631170dbcc9a072acbe2a55bc6a2baa830 f25292b04a6f59840943c4fcd84c0c12d9808bb5 schinniah <schinni2@uwo.ca> 1606876218 -0800	checkout: moving from collision_detection to main
+f25292b04a6f59840943c4fcd84c0c12d9808bb5 3838e2e1acb9d962e7e19e27dbf95ed43b00af2a schinniah <schinni2@uwo.ca> 1606876221 -0800	pull: Fast-forward
+3838e2e1acb9d962e7e19e27dbf95ed43b00af2a 470afa8e0e300a54eb754bca19aeb674cf88d07e schinniah <schinni2@uwo.ca> 1606876442 -0800	commit: added getEntityLocation method to graphics class
+470afa8e0e300a54eb754bca19aeb674cf88d07e ac6e2b8655664526f7d1eff057c91d76351e472d schinniah <schinni2@uwo.ca> 1606876742 -0800	commit: fix errors
+ac6e2b8655664526f7d1eff057c91d76351e472d 4d8099631170dbcc9a072acbe2a55bc6a2baa830 schinniah <schinni2@uwo.ca> 1606876829 -0800	checkout: moving from main to collision_detection
+4d8099631170dbcc9a072acbe2a55bc6a2baa830 77a1fd30e437d5df8a3e6d731855373929ce7918 schinniah <schinni2@uwo.ca> 1606879162 -0800	commit: updated inventory UI; enter to equip items
+77a1fd30e437d5df8a3e6d731855373929ce7918 625a92501f098ef41b07b32e1fb550261653eecd schinniah <schinni2@uwo.ca> 1606879301 -0800	commit (merge): manually resolved merge with conflicts
+625a92501f098ef41b07b32e1fb550261653eecd 4572fa01cec1d21627a40f001fea541cdde8081e schinniah <schinni2@uwo.ca> 1606880175 -0800	commit: fixed getEntityLocation method
+4572fa01cec1d21627a40f001fea541cdde8081e ac6e2b8655664526f7d1eff057c91d76351e472d schinniah <schinni2@uwo.ca> 1606880641 -0800	checkout: moving from collision_detection to main
+ac6e2b8655664526f7d1eff057c91d76351e472d 84c7612ccc01d5cd18a578dc4647e52c1d35f583 schinniah <schinni2@uwo.ca> 1606880676 -0800	pull: Fast-forward
+84c7612ccc01d5cd18a578dc4647e52c1d35f583 d6c19b6a785ac2de2e9422daddbe6770b1ed0883 schinniah <schinni2@uwo.ca> 1606881139 -0800	commit: changed inventory slot coordinates
+d6c19b6a785ac2de2e9422daddbe6770b1ed0883 57c6faaecc139e069e7b3229c2fa0390df27b19b schinniah <schinni2@uwo.ca> 1606882874 -0800	pull: Fast-forward
+57c6faaecc139e069e7b3229c2fa0390df27b19b af8dfb2fd54117e36c2eb92090745519e7dc761d schinniah <schinni2@uwo.ca> 1606882898 -0800	commit: fixed alignment issues with inventory screen
+af8dfb2fd54117e36c2eb92090745519e7dc761d af8dfb2fd54117e36c2eb92090745519e7dc761d schinniah <schinni2@uwo.ca> 1606924461 -0800	checkout: moving from main to bot_pathing
+af8dfb2fd54117e36c2eb92090745519e7dc761d 585f3df4f33618a4f6f5ea8f44a41b80cba0faf4 schinniah <schinni2@uwo.ca> 1606962364 -0800	commit: bot can move in loop
+585f3df4f33618a4f6f5ea8f44a41b80cba0faf4 6dfd6395c87db90d5d6b1cdf875fead867ef0667 schinniah <schinni2@uwo.ca> 1606964436 -0800	commit (merge): merged main into bot branch; manually resolved conflicts
+6dfd6395c87db90d5d6b1cdf875fead867ef0667 48955e852626286388e36e2308c7f76c79f77726 schinniah <schinni2@uwo.ca> 1606964976 -0800	commit (merge): merging
+48955e852626286388e36e2308c7f76c79f77726 af8dfb2fd54117e36c2eb92090745519e7dc761d schinniah <schinni2@uwo.ca> 1606965558 -0800	checkout: moving from bot_pathing to main
+af8dfb2fd54117e36c2eb92090745519e7dc761d 1b9b326f8065284697a426d830f99b920a0df710 schinniah <schinni2@uwo.ca> 1606965943 -0800	pull: Fast-forward
+1b9b326f8065284697a426d830f99b920a0df710 6f8382baada12874cc9a22f80c502bd5cd93e4ca schinniah <schinni2@uwo.ca> 1606966571 -0800	pull: Fast-forward
+6f8382baada12874cc9a22f80c502bd5cd93e4ca 25ac23fc5121a53ac3444f71dbf73f92067c9d86 schinniah <schinni2@uwo.ca> 1606967199 -0800	commit: fixed freezing issue
+25ac23fc5121a53ac3444f71dbf73f92067c9d86 a8d5fbd2ee39bcbe7dfb97de00dcf7d680fc219a schinniah <schinni2@uwo.ca> 1606967212 -0800	pull: Merge made by the 'recursive' strategy.
+a8d5fbd2ee39bcbe7dfb97de00dcf7d680fc219a aaf83d65794be4f4ac551f603850a6b4bf884671 schinniah <schinni2@uwo.ca> 1606967265 -0800	pull: Merge made by the 'recursive' strategy.
+aaf83d65794be4f4ac551f603850a6b4bf884671 cad9bb09148a2b2100a4a305bb3866898b602733 schinniah <schinni2@uwo.ca> 1606969788 -0800	pull: Fast-forward
+cad9bb09148a2b2100a4a305bb3866898b602733 7fd3e5f14924d11ae8df4d69089ace7776bb4391 schinniah <schinni2@uwo.ca> 1606969903 -0800	commit: ran doxygen

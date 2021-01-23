@@ -1,0 +1,188 @@
+\hypertarget{classTimer}{}\doxysection{Timer Class Reference}
+\label{classTimer}\index{Timer@{Timer}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTimer_a5f16e8da27d2a5a5242dead46de05d97}{Timer}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classTimer}{Timer}}\+:\+: \mbox{\hyperlink{classTimer}{Timer}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classTimer_a14fa469c4c295c5fa6e66a4ad1092146}{$\sim$\+Timer}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classTimer}{Timer}}\+:\+: \mbox{\hyperlink{classTimer}{Timer}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTimer_a9020542d73357a4eef512eefaf57524b}{reset}} ()
+\begin{DoxyCompactList}\small\item\em Reset. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classTimer_a834027d81d942b0e84a9f0a83415096f}{get\+Delta\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTimer_a0f4c9da4763069970084bd9c59bf5308}{set\+Time\+Scale}} (float time)
+\begin{DoxyCompactList}\small\item\em Setter function. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classTimer_aea25b55531b8e7aa1fef23d870328e76}{get\+Time\+Scale}} ()
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTimer_a745ad59b5a46744cd871a1129a25d74f}{update}} ()
+\begin{DoxyCompactList}\small\item\em Update. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classTimer}{Timer}} $\ast$ \mbox{\hyperlink{classTimer_a5a1c9d21a194912ca7206fc5a13868b8}{instance}} ()
+\begin{DoxyCompactList}\small\item\em Instancce. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{classTimer_ad20473e9c3bb162f7194b76eb94aa5b3}{release}} ()
+\begin{DoxyCompactList}\small\item\em Release. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classTimer_a84da0ae00b0e6c0f6e29f9ab00e376ca}\label{classTimer_a84da0ae00b0e6c0f6e29f9ab00e376ca}} 
+unsigned int {\bfseries m\+Start\+Ticks}
+\item 
+\mbox{\Hypertarget{classTimer_ad673ffdd57ebe411444d66dcd19c6131}\label{classTimer_ad673ffdd57ebe411444d66dcd19c6131}} 
+unsigned int {\bfseries m\+Elapsed\+Ticks}
+\item 
+\mbox{\Hypertarget{classTimer_a8ab701c40103f86b6ab37938983dadfa}\label{classTimer_a8ab701c40103f86b6ab37938983dadfa}} 
+float {\bfseries m\+Delta\+Time}
+\item 
+\mbox{\Hypertarget{classTimer_a0241f69cd6f43e718e2ee0bc1d6db4a2}\label{classTimer_a0241f69cd6f43e718e2ee0bc1d6db4a2}} 
+float {\bfseries m\+Time\+Scale}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classTimer}{Timer}} $\ast$ \mbox{\hyperlink{classTimer_a21e5590d30790378922617ce9b8c7294}{s\+Instance}} = NULL
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classTimer}{Timer}} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTimer_a5f16e8da27d2a5a5242dead46de05d97}\label{classTimer_a5f16e8da27d2a5a5242dead46de05d97}} 
+\index{Timer@{Timer}!Timer@{Timer}}
+\index{Timer@{Timer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{Timer()}{Timer()}}
+{\footnotesize\ttfamily Timer\+::\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classTimer}{Timer}}\+:\+: \mbox{\hyperlink{classTimer}{Timer}} object. 
+
+This is a constructor of a new \mbox{\hyperlink{classTimer}{Timer}} object \mbox{\Hypertarget{classTimer_a14fa469c4c295c5fa6e66a4ad1092146}\label{classTimer_a14fa469c4c295c5fa6e66a4ad1092146}} 
+\index{Timer@{Timer}!````~Timer@{$\sim$Timer}}
+\index{````~Timer@{$\sim$Timer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{$\sim$Timer()}{~Timer()}}
+{\footnotesize\ttfamily Timer\+::$\sim$\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{classTimer}{Timer}}\+:\+: \mbox{\hyperlink{classTimer}{Timer}} object. 
+
+This is a destructor of the \mbox{\hyperlink{classTimer}{Timer}} object 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTimer_a834027d81d942b0e84a9f0a83415096f}\label{classTimer_a834027d81d942b0e84a9f0a83415096f}} 
+\index{Timer@{Timer}!getDeltaTime@{getDeltaTime}}
+\index{getDeltaTime@{getDeltaTime}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{getDeltaTime()}{getDeltaTime()}}
+{\footnotesize\ttfamily float Timer\+::get\+Delta\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get delta time
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTimer_aea25b55531b8e7aa1fef23d870328e76}\label{classTimer_aea25b55531b8e7aa1fef23d870328e76}} 
+\index{Timer@{Timer}!getTimeScale@{getTimeScale}}
+\index{getTimeScale@{getTimeScale}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{getTimeScale()}{getTimeScale()}}
+{\footnotesize\ttfamily float Timer\+::get\+Time\+Scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get time scale
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTimer_a5a1c9d21a194912ca7206fc5a13868b8}\label{classTimer_a5a1c9d21a194912ca7206fc5a13868b8}} 
+\index{Timer@{Timer}!instance@{instance}}
+\index{instance@{instance}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classTimer}{Timer}} $\ast$ Timer\+::instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Instancce. 
+
+Instance for the timer
+
+\begin{DoxyReturn}{Returns}
+Timer$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTimer_ad20473e9c3bb162f7194b76eb94aa5b3}\label{classTimer_ad20473e9c3bb162f7194b76eb94aa5b3}} 
+\index{Timer@{Timer}!release@{release}}
+\index{release@{release}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{release()}{release()}}
+{\footnotesize\ttfamily void Timer\+::release (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Release. 
+
+Instance is NULL \mbox{\Hypertarget{classTimer_a9020542d73357a4eef512eefaf57524b}\label{classTimer_a9020542d73357a4eef512eefaf57524b}} 
+\index{Timer@{Timer}!reset@{reset}}
+\index{reset@{reset}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily void Timer\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reset. 
+
+Reset the timer to 0 \mbox{\Hypertarget{classTimer_a0f4c9da4763069970084bd9c59bf5308}\label{classTimer_a0f4c9da4763069970084bd9c59bf5308}} 
+\index{Timer@{Timer}!setTimeScale@{setTimeScale}}
+\index{setTimeScale@{setTimeScale}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{setTimeScale()}{setTimeScale()}}
+{\footnotesize\ttfamily void Timer\+::set\+Time\+Scale (\begin{DoxyParamCaption}\item[{float}]{time }\end{DoxyParamCaption})}
+
+
+
+Setter function. 
+
+Set the time scale using the input time
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classTimer_a745ad59b5a46744cd871a1129a25d74f}\label{classTimer_a745ad59b5a46744cd871a1129a25d74f}} 
+\index{Timer@{Timer}!update@{update}}
+\index{update@{update}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Timer\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Update. 
+
+Update the timer 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classTimer_a21e5590d30790378922617ce9b8c7294}\label{classTimer_a21e5590d30790378922617ce9b8c7294}} 
+\index{Timer@{Timer}!sInstance@{sInstance}}
+\index{sInstance@{sInstance}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{sInstance}{sInstance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classTimer}{Timer}} $\ast$ Timer\+::s\+Instance = NULL\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\mbox{\hyperlink{classTimer}{Timer}} class. 
+
+Class file for \mbox{\hyperlink{classTimer}{Timer}} object
+
+\begin{DoxyAuthor}{Author}
+Ibai Seco 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Timer.\+h\item 
+Timer.\+cpp\end{DoxyCompactItemize}

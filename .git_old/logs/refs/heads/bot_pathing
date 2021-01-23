@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 af8dfb2fd54117e36c2eb92090745519e7dc761d schinniah <schinni2@uwo.ca> 1606924461 -0800	branch: Created from HEAD
+af8dfb2fd54117e36c2eb92090745519e7dc761d 585f3df4f33618a4f6f5ea8f44a41b80cba0faf4 schinniah <schinni2@uwo.ca> 1606962364 -0800	commit: bot can move in loop
+585f3df4f33618a4f6f5ea8f44a41b80cba0faf4 6dfd6395c87db90d5d6b1cdf875fead867ef0667 schinniah <schinni2@uwo.ca> 1606964436 -0800	commit (merge): merged main into bot branch; manually resolved conflicts
+6dfd6395c87db90d5d6b1cdf875fead867ef0667 48955e852626286388e36e2308c7f76c79f77726 schinniah <schinni2@uwo.ca> 1606964976 -0800	commit (merge): merging

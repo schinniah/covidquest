@@ -1,0 +1,267 @@
+\hypertarget{classItem}{}\doxysection{Item Class Reference}
+\label{classItem}\index{Item@{Item}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classItem_ae2cde5bfdf836d2241734e1bd68a04ba}\label{classItem_ae2cde5bfdf836d2241734e1bd68a04ba}} 
+{\bfseries Item} (std\+::string item\+Name, std\+::string item\+Type, std\+::string texture\+Filename, int upgrade\+Quantity)
+\item 
+\mbox{\Hypertarget{classItem_a58f52f973de7de16523e28e7320c7423}\label{classItem_a58f52f973de7de16523e28e7320c7423}} 
+{\bfseries Item} (std\+::string item\+Name, std\+::string item\+Type, std\+::string texture\+Filename, int upgrade\+Quantity, int randseed)
+\item 
+\mbox{\hyperlink{classItem_a11663c84075b78c3ae5e30fdfcd7c458}{$\sim$\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classItem}{Item}}\+:\+: \mbox{\hyperlink{classItem}{Item}} object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classItem_aafe99466e68f6b99539f25e4985c1ed7}{get\+Item\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classItem_a53e6a678d15335dbf637d0f33985cca6}{get\+Item\+Type}} ()
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classItem_ac6dade73860260e62c94fa0e9876bed3}{get\+Texture\+Filename}} ()
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classItem_a6d10d833ecd238fce11de8aada017f3b}{get\+Upgrade\+Quantity}} ()
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classItem_af9ab02d12c34d4143d1d9c4f0a872f47}{is\+Equipped}} ()
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\item 
+std\+::tuple$<$ int, int $>$ \mbox{\hyperlink{classItem_a61f100c5f6973174b638414b014b03f8}{get\+Location}} ()
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classItem_aeb54ce79c7c7a5929ebba86eda12a55e}{set\+Item\+Name}} (std\+::string str)
+\begin{DoxyCompactList}\small\item\em Setter function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classItem_aaed45c570a7b38e8572da0352697d6c2}{set\+Item\+Type}} (std\+::string str)
+\begin{DoxyCompactList}\small\item\em Setter funciton. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classItem_a69d327211ca354876f37a7f054d0bed3}{set\+Texture\+Filename}} (std\+::string str)
+\begin{DoxyCompactList}\small\item\em Setter function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classItem_aac64befe3c2602b0788e5f74addc62c0}{set\+Upgrade\+Quantity}} (int quant)
+\begin{DoxyCompactList}\small\item\em Setter Function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classItem_a8f42b5e75d9951c189f4b30ee69b3f72}{equip\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Equip item. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classItem_a4995c6302a158f434d3f49bc803ffbf8}{set\+Location}} (std\+::tuple$<$ int, int $>$ loc)
+\begin{DoxyCompactList}\small\item\em Setter function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classItem_a17b15dc1e47ddba7e5c98476aeae98a6}\label{classItem_a17b15dc1e47ddba7e5c98476aeae98a6}} 
+std\+::string {\bfseries item\+Name}
+\item 
+\mbox{\Hypertarget{classItem_a4b1f5c848325ba67c10bd209f1db3032}\label{classItem_a4b1f5c848325ba67c10bd209f1db3032}} 
+std\+::string {\bfseries item\+Type}
+\item 
+\mbox{\Hypertarget{classItem_a1aaf181af02a504cf133dacbc806d216}\label{classItem_a1aaf181af02a504cf133dacbc806d216}} 
+int {\bfseries upgrade\+Quantity}
+\item 
+\mbox{\Hypertarget{classItem_abc67d61b9927f1322b5c2342b96eb664}\label{classItem_abc67d61b9927f1322b5c2342b96eb664}} 
+bool {\bfseries equipped}
+\item 
+\mbox{\Hypertarget{classItem_a3f9771ae96cb740001c6a7a22882fe27}\label{classItem_a3f9771ae96cb740001c6a7a22882fe27}} 
+std\+::string {\bfseries texture\+Filename}
+\item 
+\mbox{\Hypertarget{classItem_ab236857390d0f49098515b040c4da041}\label{classItem_ab236857390d0f49098515b040c4da041}} 
+std\+::tuple$<$ int, int $>$ {\bfseries location}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classItem_a11663c84075b78c3ae5e30fdfcd7c458}\label{classItem_a11663c84075b78c3ae5e30fdfcd7c458}} 
+\index{Item@{Item}!````~Item@{$\sim$Item}}
+\index{````~Item@{$\sim$Item}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{$\sim$Item()}{~Item()}}
+{\footnotesize\ttfamily Item\+::$\sim$\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{classItem}{Item}}\+:\+: \mbox{\hyperlink{classItem}{Item}} object. 
+
+This is the destructor for the \mbox{\hyperlink{classItem}{Item}} object 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classItem_a8f42b5e75d9951c189f4b30ee69b3f72}\label{classItem_a8f42b5e75d9951c189f4b30ee69b3f72}} 
+\index{Item@{Item}!equipItem@{equipItem}}
+\index{equipItem@{equipItem}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{equipItem()}{equipItem()}}
+{\footnotesize\ttfamily void Item\+::equip\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Equip item. 
+
+Equip item and change the status to equipped \mbox{\Hypertarget{classItem_aafe99466e68f6b99539f25e4985c1ed7}\label{classItem_aafe99466e68f6b99539f25e4985c1ed7}} 
+\index{Item@{Item}!getItemName@{getItemName}}
+\index{getItemName@{getItemName}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getItemName()}{getItemName()}}
+{\footnotesize\ttfamily string Item\+::get\+Item\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get the name of the item
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classItem_a53e6a678d15335dbf637d0f33985cca6}\label{classItem_a53e6a678d15335dbf637d0f33985cca6}} 
+\index{Item@{Item}!getItemType@{getItemType}}
+\index{getItemType@{getItemType}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getItemType()}{getItemType()}}
+{\footnotesize\ttfamily string Item\+::get\+Item\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get the type of the item
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classItem_a61f100c5f6973174b638414b014b03f8}\label{classItem_a61f100c5f6973174b638414b014b03f8}} 
+\index{Item@{Item}!getLocation@{getLocation}}
+\index{getLocation@{getLocation}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getLocation()}{getLocation()}}
+{\footnotesize\ttfamily tuple$<$ int, int $>$ Item\+::get\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get the location
+
+\begin{DoxyReturn}{Returns}
+tuple$<$int, int$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classItem_ac6dade73860260e62c94fa0e9876bed3}\label{classItem_ac6dade73860260e62c94fa0e9876bed3}} 
+\index{Item@{Item}!getTextureFilename@{getTextureFilename}}
+\index{getTextureFilename@{getTextureFilename}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getTextureFilename()}{getTextureFilename()}}
+{\footnotesize\ttfamily string Item\+::get\+Texture\+Filename (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get the texture file name
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classItem_a6d10d833ecd238fce11de8aada017f3b}\label{classItem_a6d10d833ecd238fce11de8aada017f3b}} 
+\index{Item@{Item}!getUpgradeQuantity@{getUpgradeQuantity}}
+\index{getUpgradeQuantity@{getUpgradeQuantity}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getUpgradeQuantity()}{getUpgradeQuantity()}}
+{\footnotesize\ttfamily int Item\+::get\+Upgrade\+Quantity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get the upgrade quantity
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classItem_af9ab02d12c34d4143d1d9c4f0a872f47}\label{classItem_af9ab02d12c34d4143d1d9c4f0a872f47}} 
+\index{Item@{Item}!isEquipped@{isEquipped}}
+\index{isEquipped@{isEquipped}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{isEquipped()}{isEquipped()}}
+{\footnotesize\ttfamily bool Item\+::is\+Equipped (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function. 
+
+Get whether any items are equipped or not
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classItem_aeb54ce79c7c7a5929ebba86eda12a55e}\label{classItem_aeb54ce79c7c7a5929ebba86eda12a55e}} 
+\index{Item@{Item}!setItemName@{setItemName}}
+\index{setItemName@{setItemName}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{setItemName()}{setItemName()}}
+{\footnotesize\ttfamily void Item\+::set\+Item\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+
+
+Setter function. 
+
+Set the name of the item
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classItem_aaed45c570a7b38e8572da0352697d6c2}\label{classItem_aaed45c570a7b38e8572da0352697d6c2}} 
+\index{Item@{Item}!setItemType@{setItemType}}
+\index{setItemType@{setItemType}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{setItemType()}{setItemType()}}
+{\footnotesize\ttfamily void Item\+::set\+Item\+Type (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+
+
+Setter funciton. 
+
+Set the type of an item
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classItem_a4995c6302a158f434d3f49bc803ffbf8}\label{classItem_a4995c6302a158f434d3f49bc803ffbf8}} 
+\index{Item@{Item}!setLocation@{setLocation}}
+\index{setLocation@{setLocation}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{setLocation()}{setLocation()}}
+{\footnotesize\ttfamily void Item\+::set\+Location (\begin{DoxyParamCaption}\item[{std\+::tuple$<$ int, int $>$}]{loc }\end{DoxyParamCaption})}
+
+
+
+Setter function. 
+
+Set the location of an item
+
+
+\begin{DoxyParams}{Parameters}
+{\em loc} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classItem_a69d327211ca354876f37a7f054d0bed3}\label{classItem_a69d327211ca354876f37a7f054d0bed3}} 
+\index{Item@{Item}!setTextureFilename@{setTextureFilename}}
+\index{setTextureFilename@{setTextureFilename}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{setTextureFilename()}{setTextureFilename()}}
+{\footnotesize\ttfamily void Item\+::set\+Texture\+Filename (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+
+
+Setter function. 
+
+Set the texture file name
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classItem_aac64befe3c2602b0788e5f74addc62c0}\label{classItem_aac64befe3c2602b0788e5f74addc62c0}} 
+\index{Item@{Item}!setUpgradeQuantity@{setUpgradeQuantity}}
+\index{setUpgradeQuantity@{setUpgradeQuantity}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{setUpgradeQuantity()}{setUpgradeQuantity()}}
+{\footnotesize\ttfamily void Item\+::set\+Upgrade\+Quantity (\begin{DoxyParamCaption}\item[{int}]{quant }\end{DoxyParamCaption})}
+
+
+
+Setter Function. 
+
+Set the upgrade quantity
+
+
+\begin{DoxyParams}{Parameters}
+{\em quant} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Item.\+h\item 
+Item.\+cpp\end{DoxyCompactItemize}

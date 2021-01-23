@@ -1,0 +1,167 @@
+\hypertarget{classEntity}{}\doxysection{Entity Class Reference}
+\label{classEntity}\index{Entity@{Entity}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEntity_a980f368aa07ce358583982821533a54a}{Entity}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classEntity}{Entity}} Class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEntity_ade3b0fd5b2345583ef54f99f0d8cbbff}\label{classEntity_ade3b0fd5b2345583ef54f99f0d8cbbff}} 
+{\bfseries Entity} (std\+::string new\+Name, SDL\+\_\+\+Rect destination\+Rect, SDL\+\_\+\+Texture $\ast$new\+Texture)
+\item 
+\mbox{\hyperlink{classEntity_adf6d3f7cb1b2ba029b6b048a395cc8ae}{$\sim$\+Entity}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classEntity}{Entity}}\+:\+: \mbox{\hyperlink{classEntity}{Entity}} object. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Rect \mbox{\hyperlink{classEntity_acc758bb5d84999df5608edc91790639c}{get\+Destination\+Rectangle}} ()
+\begin{DoxyCompactList}\small\item\em Getter function for \mbox{\hyperlink{classEntity}{Entity}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEntity_aa842faaeff33b17a32f29659a396db07}{set\+Destination\+Rectangle}} (SDL\+\_\+\+Rect new\+Rectangle)
+\begin{DoxyCompactList}\small\item\em Setter function for \mbox{\hyperlink{classEntity}{Entity}}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classEntity_ab824e4f163924eb4f136d3e2ff759897}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Getter function for \mbox{\hyperlink{classEntity}{Entity}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEntity_ad9cc6453a56fcefcd2b77dbde895f8d1}{set\+Name}} (std\+::string new\+Name)
+\begin{DoxyCompactList}\small\item\em Setter function for \mbox{\hyperlink{classEntity}{Entity}}. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Texture $\ast$ \mbox{\hyperlink{classEntity_a25b50625a770e24dcafc25aa505fc54d}{get\+Texture}} ()
+\begin{DoxyCompactList}\small\item\em Getter function for \mbox{\hyperlink{classEntity}{Entity}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEntity_a3a7cb62ca11eed0efab35f4c12fc4dc9}{set\+Texture}} (SDL\+\_\+\+Texture $\ast$new\+Texture)
+\begin{DoxyCompactList}\small\item\em Setter function for \mbox{\hyperlink{classEntity}{Entity}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classEntity_a931b21fbdebb1a5963b4bcab5df128f5}\label{classEntity_a931b21fbdebb1a5963b4bcab5df128f5}} 
+std\+::string {\bfseries name}
+\item 
+\mbox{\Hypertarget{classEntity_a12b5663f2ff6e9098f36ca0b3c50a170}\label{classEntity_a12b5663f2ff6e9098f36ca0b3c50a170}} 
+SDL\+\_\+\+Rect {\bfseries d\+Rect}
+\item 
+\mbox{\Hypertarget{classEntity_a7e3a5bd3ee8f06d2641b183b4ea87933}\label{classEntity_a7e3a5bd3ee8f06d2641b183b4ea87933}} 
+SDL\+\_\+\+Texture $\ast$ {\bfseries texture}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEntity_a980f368aa07ce358583982821533a54a}\label{classEntity_a980f368aa07ce358583982821533a54a}} 
+\index{Entity@{Entity}!Entity@{Entity}}
+\index{Entity@{Entity}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{Entity()}{Entity()}}
+{\footnotesize\ttfamily Entity\+::\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classEntity}{Entity}} Class. 
+
+Each entity on the screen is represented by a rectangle. Entities can be identified by name and have a texture. \begin{DoxyAuthor}{Author}
+Suseela Chinniah
+\end{DoxyAuthor}
+Construct a new \mbox{\hyperlink{classEntity}{Entity}}\+:\+: \mbox{\hyperlink{classEntity}{Entity}} object  Create an \mbox{\hyperlink{classEntity}{Entity}} object that contains name, destination SDL rectangle, SDL texture \mbox{\Hypertarget{classEntity_adf6d3f7cb1b2ba029b6b048a395cc8ae}\label{classEntity_adf6d3f7cb1b2ba029b6b048a395cc8ae}} 
+\index{Entity@{Entity}!````~Entity@{$\sim$Entity}}
+\index{````~Entity@{$\sim$Entity}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{$\sim$Entity()}{~Entity()}}
+{\footnotesize\ttfamily Entity\+::$\sim$\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{classEntity}{Entity}}\+:\+: \mbox{\hyperlink{classEntity}{Entity}} object. 
+
+This is the destructor for the \mbox{\hyperlink{classEntity}{Entity}} object 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classEntity_acc758bb5d84999df5608edc91790639c}\label{classEntity_acc758bb5d84999df5608edc91790639c}} 
+\index{Entity@{Entity}!getDestinationRectangle@{getDestinationRectangle}}
+\index{getDestinationRectangle@{getDestinationRectangle}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getDestinationRectangle()}{getDestinationRectangle()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Rect Entity\+::get\+Destination\+Rectangle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function for \mbox{\hyperlink{classEntity}{Entity}}. 
+
+Get destination rectangle for \mbox{\hyperlink{classEntity}{Entity}}
+
+\begin{DoxyReturn}{Returns}
+SDL\+\_\+\+Rect 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEntity_ab824e4f163924eb4f136d3e2ff759897}\label{classEntity_ab824e4f163924eb4f136d3e2ff759897}} 
+\index{Entity@{Entity}!getName@{getName}}
+\index{getName@{getName}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Entity\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function for \mbox{\hyperlink{classEntity}{Entity}}. 
+
+Get the name of the \mbox{\hyperlink{classEntity}{Entity}}
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEntity_a25b50625a770e24dcafc25aa505fc54d}\label{classEntity_a25b50625a770e24dcafc25aa505fc54d}} 
+\index{Entity@{Entity}!getTexture@{getTexture}}
+\index{getTexture@{getTexture}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getTexture()}{getTexture()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Texture $\ast$ Entity\+::get\+Texture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function for \mbox{\hyperlink{classEntity}{Entity}}. 
+
+Get the texture of the \mbox{\hyperlink{classEntity}{Entity}}
+
+\begin{DoxyReturn}{Returns}
+SDL\+\_\+\+Texture$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEntity_aa842faaeff33b17a32f29659a396db07}\label{classEntity_aa842faaeff33b17a32f29659a396db07}} 
+\index{Entity@{Entity}!setDestinationRectangle@{setDestinationRectangle}}
+\index{setDestinationRectangle@{setDestinationRectangle}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{setDestinationRectangle()}{setDestinationRectangle()}}
+{\footnotesize\ttfamily void Entity\+::set\+Destination\+Rectangle (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Rect}]{new\+Rectangle }\end{DoxyParamCaption})}
+
+
+
+Setter function for \mbox{\hyperlink{classEntity}{Entity}}. 
+
+Set destination rectangle for \mbox{\hyperlink{classEntity}{Entity}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Rectangle} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEntity_ad9cc6453a56fcefcd2b77dbde895f8d1}\label{classEntity_ad9cc6453a56fcefcd2b77dbde895f8d1}} 
+\index{Entity@{Entity}!setName@{setName}}
+\index{setName@{setName}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void Entity\+::set\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+Name }\end{DoxyParamCaption})}
+
+
+
+Setter function for \mbox{\hyperlink{classEntity}{Entity}}. 
+
+Set the name of the \mbox{\hyperlink{classEntity}{Entity}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Name} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEntity_a3a7cb62ca11eed0efab35f4c12fc4dc9}\label{classEntity_a3a7cb62ca11eed0efab35f4c12fc4dc9}} 
+\index{Entity@{Entity}!setTexture@{setTexture}}
+\index{setTexture@{setTexture}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{setTexture()}{setTexture()}}
+{\footnotesize\ttfamily void Entity\+::set\+Texture (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Texture $\ast$}]{new\+Texture }\end{DoxyParamCaption})}
+
+
+
+Setter function for \mbox{\hyperlink{classEntity}{Entity}}. 
+
+Set the texture of the \mbox{\hyperlink{classEntity}{Entity}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Texture} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Entity.\+h\item 
+Entity.\+cpp\end{DoxyCompactItemize}

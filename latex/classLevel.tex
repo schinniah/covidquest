@@ -1,0 +1,135 @@
+\hypertarget{classLevel}{}\doxysection{Level Class Reference}
+\label{classLevel}\index{Level@{Level}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classLevel_a43893346775cf315cbd8702911bc0eb3}{Level}} (int level)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classLevel}{Level}}\+:\+: \mbox{\hyperlink{classLevel}{Level}} object. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classBot}{Bot}} $>$ \mbox{\hyperlink{classLevel_ad52faecdffd34ef1b30a439d0dfd37cd}{get\+Bots}} ()
+\begin{DoxyCompactList}\small\item\em Getter Function. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classItem}{Item}} $>$ \mbox{\hyperlink{classLevel_a40a2010121a8db249db2cf6d9936c7d8}{get\+Items}} ()
+\begin{DoxyCompactList}\small\item\em Getter Function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLevel_a5a1247621fcc3cf5569e7ce7781f5eb8}{set\+Bots}} (std\+::vector$<$ \mbox{\hyperlink{classBot}{Bot}} $>$ bots)
+\begin{DoxyCompactList}\small\item\em Setter Function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classLevel_ae777fe3b3af16d525b6972d3f0d3cfe6}{set\+Items}} (std\+::vector$<$ \mbox{\hyperlink{classItem}{Item}} $>$ items)
+\begin{DoxyCompactList}\small\item\em Setter function. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classLevel_ab539831994cd5d1d9b172515c7cf5b4f}\label{classLevel_ab539831994cd5d1d9b172515c7cf5b4f}} 
+\mbox{\hyperlink{classItem}{Item}} {\bfseries find\+Item} (std\+::string name)
+\item 
+\mbox{\hyperlink{classLevel_a249eac1e8f19ff44134efa5e986feaca}{$\sim$\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classLevel}{Level}}\+:\+: \mbox{\hyperlink{classLevel}{Level}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classLevel_ad4e2b49eae6af145e5f8ea6be6efae37}\label{classLevel_ad4e2b49eae6af145e5f8ea6be6efae37}} 
+std\+::vector$<$ \mbox{\hyperlink{classBot}{Bot}} $>$ {\bfseries bots}
+\item 
+\mbox{\Hypertarget{classLevel_aabf8b08860e7187435511b6c75ce9e24}\label{classLevel_aabf8b08860e7187435511b6c75ce9e24}} 
+std\+::vector$<$ \mbox{\hyperlink{classItem}{Item}} $>$ {\bfseries items}
+\item 
+\mbox{\Hypertarget{classLevel_a75f4fbd93b48b437bf58e9c40e78cb12}\label{classLevel_a75f4fbd93b48b437bf58e9c40e78cb12}} 
+int {\bfseries level}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classLevel_a43893346775cf315cbd8702911bc0eb3}\label{classLevel_a43893346775cf315cbd8702911bc0eb3}} 
+\index{Level@{Level}!Level@{Level}}
+\index{Level@{Level}!Level@{Level}}
+\doxysubsubsection{\texorpdfstring{Level()}{Level()}}
+{\footnotesize\ttfamily Level\+::\+Level (\begin{DoxyParamCaption}\item[{int}]{lvl }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classLevel}{Level}}\+:\+: \mbox{\hyperlink{classLevel}{Level}} object. 
+
+Each level gets different items and enemies
+
+
+\begin{DoxyParams}{Parameters}
+{\em lvl} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classLevel_a249eac1e8f19ff44134efa5e986feaca}\label{classLevel_a249eac1e8f19ff44134efa5e986feaca}} 
+\index{Level@{Level}!````~Level@{$\sim$Level}}
+\index{````~Level@{$\sim$Level}!Level@{Level}}
+\doxysubsubsection{\texorpdfstring{$\sim$Level()}{~Level()}}
+{\footnotesize\ttfamily Level\+::$\sim$\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{classLevel}{Level}}\+:\+: \mbox{\hyperlink{classLevel}{Level}} object. 
+
+This is a destructor for the \mbox{\hyperlink{classLevel}{Level}} object 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classLevel_ad52faecdffd34ef1b30a439d0dfd37cd}\label{classLevel_ad52faecdffd34ef1b30a439d0dfd37cd}} 
+\index{Level@{Level}!getBots@{getBots}}
+\index{getBots@{getBots}!Level@{Level}}
+\doxysubsubsection{\texorpdfstring{getBots()}{getBots()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{classBot}{Bot}} $>$ Level\+::get\+Bots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter Function. 
+
+Get a list(vector) of bots
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Bot$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classLevel_a40a2010121a8db249db2cf6d9936c7d8}\label{classLevel_a40a2010121a8db249db2cf6d9936c7d8}} 
+\index{Level@{Level}!getItems@{getItems}}
+\index{getItems@{getItems}!Level@{Level}}
+\doxysubsubsection{\texorpdfstring{getItems()}{getItems()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{classItem}{Item}} $>$ Level\+::get\+Items (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter Function. 
+
+Get a list(vector) of items
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Item$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classLevel_a5a1247621fcc3cf5569e7ce7781f5eb8}\label{classLevel_a5a1247621fcc3cf5569e7ce7781f5eb8}} 
+\index{Level@{Level}!setBots@{setBots}}
+\index{setBots@{setBots}!Level@{Level}}
+\doxysubsubsection{\texorpdfstring{setBots()}{setBots()}}
+{\footnotesize\ttfamily void Level\+::set\+Bots (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classBot}{Bot}} $>$}]{bots }\end{DoxyParamCaption})}
+
+
+
+Setter Function. 
+
+Set new bots
+
+
+\begin{DoxyParams}{Parameters}
+{\em newbots} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classLevel_ae777fe3b3af16d525b6972d3f0d3cfe6}\label{classLevel_ae777fe3b3af16d525b6972d3f0d3cfe6}} 
+\index{Level@{Level}!setItems@{setItems}}
+\index{setItems@{setItems}!Level@{Level}}
+\doxysubsubsection{\texorpdfstring{setItems()}{setItems()}}
+{\footnotesize\ttfamily void Level\+::set\+Items (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classItem}{Item}} $>$}]{items }\end{DoxyParamCaption})}
+
+
+
+Setter function. 
+
+Set new items
+
+
+\begin{DoxyParams}{Parameters}
+{\em newitems} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Level.\+h\item 
+Level.\+cpp\end{DoxyCompactItemize}
