@@ -6,3 +6,4 @@ sudo apt-get install libsdl2-dev libsdl2-image-dev
 
 g++ main.cpp Entity.cpp Graphics.cpp Item.cpp Protagonist.cpp Bot.cpp Level.cpp -lSDL2 -lSDL2_image
 
+Arrow keys to move around. "i" to access inventory.
